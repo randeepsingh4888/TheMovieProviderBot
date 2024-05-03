@@ -1494,7 +1494,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                     InlineKeyboardButton('🖥️ Watch online 🖥️', url=lazy_stream)]])  # web stream Link
             )
             
-            await asyncio.sleep(10)  # Adjust the delay as needed
+            await asyncio.sleep(600)  # Adjust the delay as needed
             await Deendayal.delete()
             return
             
