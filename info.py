@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'shortxlinks.com'))
 STREAM_API = (environ.get('STREAM_API', '6581c58041cb0da04029c07db4fe0f98e26a2132'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/bdkdjhk/17'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/bdkdjhk/19'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5311861748').split()]
